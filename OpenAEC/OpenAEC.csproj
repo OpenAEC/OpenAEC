@@ -185,12 +185,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\addinManager32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\addinManager16.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\deleteBackups32.png" />
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +195,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\help32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addinManager16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addinManager32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
