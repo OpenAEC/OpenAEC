@@ -1,6 +1,8 @@
 # OpenAEC
 Open Source initiative to collaborate on Revit tools for the sake of saving AEC Industry. :-P
 
+<img src="https://cloud.githubusercontent.com/assets/11439624/21607119/f3639184-d1ab-11e6-83a3-5d034b5902f3.png" width="100%"></img>
+
 ## Rules
 * Please make sure to use the `Resources` file. Let's not leave any user facing strings hard coded. Maybe in the future we can accomodate localization and that will make it super easy. 
 * In order to get your plug-in displayed on the Ribbon, please add `Class Attributes` to your `ExternalCommand` per this post: [AddinManager](https://github.com/design-technology/OpenAEC/wiki/Addin-Manager)
