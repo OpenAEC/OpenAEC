@@ -1,5 +1,5 @@
 # OpenAEC
-Open Source initiative to collaborate on Revit tools for the sake of saving AEC Industry. :-P
+### Open Source initiative to collaborate on Revit tools for the sake of saving AEC Industry. :-P
 <p align="center">
 <img src="https://github.com/design-technology/OpenAEC/blob/master/_Graphics/Logo/FullLogo.png" align="center"></img>
 </p>
