@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>OpenAEC</Name>
+    <Assembly>OpenAEC\OpenAEC.dll</Assembly>
+    <AddInId>604b1052-f162-4951-8576-c261d1993108</AddInId>
+    <FullClassName>OpenAEC.App</FullClassName>
+    <VendorId>OpenAEC</VendorId>
+    <VendorDescription>OpenAEC</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="addinManager16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAMhJREFUOE+t0TELAWEcx/FDYhBehDfBLO/AxqRM3oAs2DCYDLIgxWKxYyWDSSZl
+        kZi9AN+/J4u75/yH+9annqvrd9edE2QxDLHFxkcYnpXQwwSLP4pwVUMfcyx9XNGCKxk4wuu1v54YwzpQ
+        NUdrO6gHcsgg+bkyqQZCaOCCE15IQVINxHGHPF3qYGWOuoECbpA3keSXTc1RN5DADCOUcUYXkvojZtHE
+        AXlEIakHbPkOVNA2R2syMED9c/VTGmvsITd6eSCCoHKcN4h9SpAm5jZJAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="addinManager32" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="AddinManager_ButtonText" xml:space="preserve">
+    <value> Addin
+Manager</value>
+    <comment>AddinManager</comment>
+  </data>
+  <data name="AddinManager_Description" xml:space="preserve">
+    <value>This is an OpenAEC apps, Addin Manager.</value>
+    <comment>AddinManager</comment>
+  </data>
+  <data name="AddinManager_Name" xml:space="preserve">
+    <value>AddinManager</value>
+    <comment>AddinManager</comment>
+  </data>
+  <data name="AddinManager_SettingsFileName" xml:space="preserve">
+    <value>OpenAEC_AddinManagerSettings.txt</value>
+    <comment>AddinManager</comment>
+  </data>
+  <data name="Error_PushbuttonInvalidArgs" xml:space="preserve">
+    <value>Could not create pushbutton due to invalid arguments.</value>
+    <comment>Errors</comment>
+  </data>
+  <data name="Ribbon_TabName" xml:space="preserve">
+    <value>OpenAEC</value>
+    <comment>Ribbon</comment>
+  </data>
+  <data name="Ribbon_TabNameManagement" xml:space="preserve">
+    <value>Management</value>
+    <comment>Ribbon</comment>
+  </data>
+  <data name="DeleteBackups_ButtonText" xml:space="preserve">
+    <value> Delete
+Backups</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="DeleteBackups_Description" xml:space="preserve">
+    <value>Delete all family &amp; project backup files from current document location.</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="DeleteBackups_Name" xml:space="preserve">
+    <value>Delete Backups</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="Ribbon_ZeroDocAvailability" xml:space="preserve">
+    <value>OpenAEC.Ribbon.Availability</value>
+    <comment>Ribbon</comment>
+  </data>
+  <data name="deleteBackups16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAMhJREFUOE+t0TELAWEcx/FDYhBehDfBLO/AxqRM3oAs2DCYDLIgxWKxYyWDSSZl
+        kZi9AN+/J4u75/yH+9annqvrd9edE2QxDLHFxkcYnpXQwwSLP4pwVUMfcyx9XNGCKxk4wuu1v54YwzpQ
+        NUdrO6gHcsgg+bkyqQZCaOCCE15IQVINxHGHPF3qYGWOuoECbpA3keSXTc1RN5DADCOUcUYXkvojZtHE
+        AXlEIakHbPkOVNA2R2syMED9c/VTGmvsITd6eSCCoHKcN4h9SpAm5jZJAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="deleteBackups32" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        YII=
+</value>
+  </data>
+  <data name="DeleteBackups_FileNotSavedException" xml:space="preserve">
+    <value>You have to first save this file for us to be able to obtain its location.</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="DeleteBackups_InstructionDescription" xml:space="preserve">
+    <value>This will delete all backup files from the current document's folder, including :
+- family backups (.rfa)
+- project backups (.rvt)
+</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="DeleteBackups_MainInstruction" xml:space="preserve">
+    <value>Are you sure you want to delete all backup files ?</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="DeleteBackups_MessageTitle" xml:space="preserve">
+    <value>Delete all backup files.</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="DeleteBackups_NoDontDelete" xml:space="preserve">
+    <value>No, keep backup files.</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="DeleteBackups_ProgressFormTitle" xml:space="preserve">
+    <value>Delete all project and family backup files from current file's location.</value>
+    <comment>DeleteBackups</comment>
+  </data>
+  <data name="DeleteBackups_YesDelete" xml:space="preserve">
+    <value>Yes, delete them!</value>
+    <comment>DeleteBackups</comment>
+  </data>
+</root>

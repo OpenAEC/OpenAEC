@@ -1,0 +1,37 @@
+﻿<controls:MetroWindow    x:Class="OpenAEC.Wpf.View.MainWindow"
+                         x:Name="Win"
+                         xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                         xmlns:addinManager="clr-namespace:OpenAEC.Revit.Management.AddinManager"
+                         mc:Ignorable="d" 
+                         Height="400" Width="600" 
+                         ResizeMode="CanResizeWithGrip" 
+                         Title="{Binding WindowTitle, Mode=OneWay, FallbackValue='OpenAEC'}" 
+                         BorderBrush="{DynamicResource AccentColorBrush}" 
+                         BorderThickness="1"
+                         WindowStartupLocation="CenterScreen" 
+                         WindowTransitionsEnabled="False" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type addinManager:AddinManagerViewModel}">
+                <addinManager:AddinManagerView />
+            </DataTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <ContentControl x:Name="MainContentControl" 
+                        Content="{Binding CurrentPageViewModel}" 
+                        Margin="10" />
+    </Grid>
+</controls:MetroWindow>
+
