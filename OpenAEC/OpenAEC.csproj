@@ -196,6 +196,12 @@
   <ItemGroup>
     <None Include="Resources\deleteBackups16.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\OpenAEC.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\help32.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>echo Configuration: $(Configuration)

@@ -26,7 +26,8 @@
                        IsReadOnly="False" 
                        SelectionMode="Extended" 
                        SelectionUnit="FullRow" 
-                       SelectedItemsList="{Binding SelectedSheets, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10,10,10,42">
+                       SelectedItemsList="{Binding SelectedSheets, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                       Margin="10,10,10,42">
             <ex:DataGridExtension.Columns>
                 <DataGridTextColumn Header="Name" 
                                     Binding="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
@@ -67,12 +68,18 @@
         <Button Content="Apply" 
                 Command="{Binding ApplyCommand, Mode=OneWay}" 
                 CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" 
-                Margin="0,0,10,10" Height="27" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" />
+                Margin="0,0,10,10" 
+                Height="27" 
+                VerticalAlignment="Bottom" 
+                HorizontalAlignment="Right" 
+                Width="75" />
         <Button Content="Close" 
                 Command="{Binding CloseCommand, Mode=OneWay}" 
                 CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" 
                 HorizontalAlignment="Right" 
                 Margin="0,0,90,10" 
-                Width="75" Height="27" VerticalAlignment="Bottom" />
+                Width="75" 
+                Height="27" 
+                VerticalAlignment="Bottom" />
     </Grid>
 </UserControl>

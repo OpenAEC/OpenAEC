@@ -23,7 +23,6 @@ namespace OpenAEC.Revit.Management.AddinManager
                 var model = new Wpf.ViewModel.MainViewModel
                 {
                     CurrentPageViewModel = new AddinManagerViewModel(uiApp),
-                    HelpPageLink = "",
                     WindowTitle = "Addin Manager"
                 };
 

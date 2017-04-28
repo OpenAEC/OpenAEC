@@ -11,6 +11,9 @@
                          ResizeMode="CanResizeWithGrip" 
                          Title="{Binding WindowTitle, Mode=OneWay, FallbackValue='OpenAEC'}" 
                          BorderBrush="{DynamicResource AccentColorBrush}" 
+                         Icon="/OpenAEC;component/Resources/OpenAEC.ico"
+                         ShowIconOnTitleBar="True"
+                         ShowTitleBar="True"
                          BorderThickness="1"
                          WindowStartupLocation="CenterScreen" 
                          WindowTransitionsEnabled="False" >
@@ -28,6 +31,30 @@
             </DataTemplate>
         </ResourceDictionary>
     </Window.Resources>
+    <controls:MetroWindow.RightWindowCommands>
+        <controls:WindowCommands>
+            <Button Content="credits" 
+                    Command="{Binding NavigateToCreditsCommand, Mode=OneWay}" />
+            <Button Command="{Binding NavigateToHelpCommand, Mode=OneWay}">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20"
+                               Height="20"
+                               Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <Image Source="/OpenAEC;component/Resources/help32.png" Stretch="Fill"/>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0"
+                               VerticalAlignment="Center"
+                               Text="help" />
+                </StackPanel>
+            </Button>
+        </controls:WindowCommands>
+    </controls:MetroWindow.RightWindowCommands>
     <Grid>
         <ContentControl x:Name="MainContentControl" 
                         Content="{Binding CurrentPageViewModel}" 

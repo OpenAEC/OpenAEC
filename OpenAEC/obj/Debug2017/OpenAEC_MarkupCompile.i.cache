@@ -16,5 +16,5 @@ DEBUG;TRACE
 76-1777375001
 Revit\Management\AddinManager\AddinManagerView.xaml;Wpf\View\MainWindow.xaml;
 
-True
+False
 
