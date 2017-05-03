@@ -14,4 +14,4 @@
     // be recognized when AddinManager parses the source DLL for addins. This plug-in's
     // button and tab will be created manually on startup.
 ```
-* An Installer project has been added to OpenAEC toolkit. In order to be able to build the source properly, please follow these instructions: [AddinManager](https://github.com/design-technology/OpenAEC/wiki/OpenAEC-Installer)
+* An Installer project has been added to OpenAEC toolkit. In order to be able to build the source properly, please follow these instructions: [OpenAEC Installer](https://github.com/design-technology/OpenAEC/wiki/OpenAEC-Installer)
