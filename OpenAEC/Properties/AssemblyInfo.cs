@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("OpenAEC")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("OpenAEC is an innitiative to collaborate on Open Source tools for AEC.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("OpenAEC")]
 [assembly: AssemblyProduct("OpenAEC")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]

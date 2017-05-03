@@ -32,4 +32,3 @@ C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\obj\Debug2
 C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\obj\Debug2017\OpenAEC.dll
 C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\obj\Debug2017\OpenAEC.pdb
 C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\obj\Debug2017\OpenAEC.Utilities.ProgressForm.resources
-C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\obj\Debug2017\OpenAEC.csprojResolveAssemblyReference.cache

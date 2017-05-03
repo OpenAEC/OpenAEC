@@ -5,14 +5,19 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAEC", "OpenAEC\OpenAEC.csproj", "{638D0085-93CD-4798-91CD-868594CFFA02}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OpenAEC_Installer", "OpenAEC_Installer\OpenAEC_Installer.vdproj", "{1C9FF40D-0E92-44CB-BB09-F77A0489C4F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug2016|Any CPU = Debug2016|Any CPU
 		Debug2017|Any CPU = Debug2017|Any CPU
 		Debug2018|Any CPU = Debug2018|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{638D0085-93CD-4798-91CD-868594CFFA02}.Debug|Any CPU.ActiveCfg = Debug2018|Any CPU
+		{638D0085-93CD-4798-91CD-868594CFFA02}.Debug|Any CPU.Build.0 = Debug2018|Any CPU
 		{638D0085-93CD-4798-91CD-868594CFFA02}.Debug2016|Any CPU.ActiveCfg = Debug2016|Any CPU
 		{638D0085-93CD-4798-91CD-868594CFFA02}.Debug2016|Any CPU.Build.0 = Debug2016|Any CPU
 		{638D0085-93CD-4798-91CD-868594CFFA02}.Debug2017|Any CPU.ActiveCfg = Debug2017|Any CPU
@@ -21,6 +26,12 @@ Global
 		{638D0085-93CD-4798-91CD-868594CFFA02}.Debug2018|Any CPU.Build.0 = Debug2018|Any CPU
 		{638D0085-93CD-4798-91CD-868594CFFA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{638D0085-93CD-4798-91CD-868594CFFA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9FF40D-0E92-44CB-BB09-F77A0489C4F8}.Debug|Any CPU.ActiveCfg = Debug
+		{1C9FF40D-0E92-44CB-BB09-F77A0489C4F8}.Debug2016|Any CPU.ActiveCfg = Debug
+		{1C9FF40D-0E92-44CB-BB09-F77A0489C4F8}.Debug2017|Any CPU.ActiveCfg = Debug
+		{1C9FF40D-0E92-44CB-BB09-F77A0489C4F8}.Debug2018|Any CPU.ActiveCfg = Debug
+		{1C9FF40D-0E92-44CB-BB09-F77A0489C4F8}.Release|Any CPU.ActiveCfg = Release
+		{1C9FF40D-0E92-44CB-BB09-F77A0489C4F8}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
