@@ -12,4 +12,7 @@
     <StartAction>Program</StartAction>
     <StartProgram>C:\Program Files\Autodesk\Revit 2017\Revit.exe</StartProgram>
   </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
 </Project>
